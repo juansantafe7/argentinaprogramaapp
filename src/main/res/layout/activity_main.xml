@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.aplicacionargentinaprograma.MainActivity">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="383dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="46dp"
+        android:hint="Texto 1" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="380dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="46dp"
+        android:hint="Texto 2" />
+
+    <Button
+        android:id="@+id/compareButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:baselineAligned="false"
+        android:text="Comparar" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:text="Resultado:"
+        android:textStyle="bold" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_marginTop="46dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
